@@ -12,7 +12,6 @@
 }
 
 .wrapper{
-    border: 1px solid red;
     width: 80%;
     margin: 0 auto;
     padding: 1%;
@@ -27,30 +26,53 @@
     text-align: right;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .img-responsive{
-    width: 90%;
+    width: 100%;
 
 }
 
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 2%;
+    text-decoration: none;
+}
+
+.btn:hover{
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+}
+
 .col-2{
-    width: 49%;
-    border: 1px solid black;
+    width: 48%;
     float: left;
+    padding: 1%;
+}
+.col-4{
+    border: 1px solid black;
+    width: 28%;
+    float: left;
+    margin: 2%;
 }
 
 /* CSS for Navbar */
 
 .logo{
     width: 20%;
-    border: 1px solid black;
     float: left;
     font-weight: bold;
+    padding: 1%;
 }
 
 .menu{
     width: 70%;
-    border: 1px solid black;
     float: right;
+    padding: 2%;
 }
 
 .menu ul{
@@ -70,4 +92,46 @@
 .menu ul li a:hover{
     color: black;
     text-decoration: underline;
+}
+
+/*CSS for About Section */
+
+
+.about-title{
+    margin-bottom: 4%;
+}
+
+.about-subtitle{
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 6%;
+}
+
+.about-description{
+    font-size: 1.2em;
+    line-height: 35px;
+    margin-bottom: 10%;
+}
+
+/* CSS for Projects Section*/
+
+.projects a{
+    color: white;
+    font-weight: bold;
+    
+}
+
+.projects a:hover{
+    color: lightseagreen;
+}
+
+.project-box{
+    position: relative;
+}
+
+.project-title{
+    position: absolute;
+    top: 80%;
+    padding: 2%;
+    
 }
